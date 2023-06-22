@@ -1,17 +1,17 @@
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.header {
+.header{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 400px;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .footer{
@@ -20,53 +20,20 @@ body {
     justify-content: space-between;
     width: 500px;
     align-items: center;
+    margin-top: 20px;
 }
 
-.board {
-    width: 500px;
-    height: 500px;
+.board{
+    width: 380px;
+    height: 380px;
     display: grid;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
-h1{
+h1 {
     font-style: italic;
-    text-decoration: underline;
     font-size: 48px;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
-h6 {
-    font-size: 24px;
-    margin-left: -40px;
-}
-
-button {
-    height: 40px;
-    width: 90px;
-    border-radius: 10%;
-    font-size: 18px;
-}
-
-.fa {
-    background-color: brown;
-    color: white;
-    background-color: brown;
-
-}
-
-.ta {
-    background-color: black;
-    color: white;
-    background-color: black;
-}
-
-.hu {
-    background-color: yellow;
-    background-color: yellow;
-}
-
-.ra {
-    background-color: blue;
-    color: white;
-    background-color: blue;
-}
